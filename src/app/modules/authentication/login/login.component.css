@@ -1,0 +1,66 @@
+.page {
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    margin-left: 30;
+    margin-right: 30;
+    flex-grow: 2;
+    vertical-align: top;
+    margin-top: 10%;
+}
+
+.logo {
+    margin-bottom: 12;
+    width: 75%;
+    height: auto;
+}
+
+.input-field {
+    margin-bottom: 25;
+}
+
+.input {
+    font-size: 18;
+    placeholder-color: #A8A8A8;
+}
+
+.input:disabled {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.sign-in-btn {
+    height: 50;
+    margin: 30 5 15 5;
+    background-color: #C3D62E;
+    border-radius: 5;
+    font-size: 20;
+    color: white;
+    width: 100%;
+    text-transform: none;
+}
+
+.sign-in-btn:disabled {
+    opacity: 0.5;
+}
+
+.forgot-pass-label {
+    color: blue;
+    font-size: 18;
+}
+
+.sign-in-label {
+    font-size: 22;
+    font-weight: 500;
+    color: #0a3b61;
+    text-transform: capitalize;
+}
+
+.recordPass {
+    width: auto;
+    margin: 10 0;
+    text-align: center;
+    font-size: 19;
+}

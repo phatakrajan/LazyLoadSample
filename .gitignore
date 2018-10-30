@@ -1,0 +1,22 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+npm-debug.log
+.DS_Store
+
+*.js.map
+*.metadata.json
+
+/.vs
+/.git
+/.vscode
+
+/**/*.js
+/node_modules
+
+platforms/
+platforms/**/
+lib/**/
+hooks/
+hooks/**/
